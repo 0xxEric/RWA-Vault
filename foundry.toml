@@ -15,3 +15,7 @@ remappings = [
 
 # [etherscan]
 # monad_testnet = { key = "${MONAD_EXPLORER_API_KEY}", url = "https://explorer.testnet.monad.xyz/api" } 
+
+[dependencies]
+forge-std = "https://github.com/foundry-rs/forge-std"
+openzeppelin-contracts = "https://github.com/OpenZeppelin/openzeppelin-contracts"
